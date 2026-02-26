@@ -42,7 +42,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 }
 watch(loggedIn, () => {
     if(loggedIn.value){
-        navigateTo('/users')
+        navigateTo('/tasks')
     }
 })
 </script>
